@@ -6,6 +6,17 @@ Este repositorio contiene una colección de scripts y utilidades en Python dise�
 
 A continuación se detalla la estructura del proyecto y la descripción de cada módulo y archivo.
 
+### 📂 `API_requests`
+Colección de plantillas y utilidades para conectar con APIs externas de forma segura y modular.
+
+- **`utils_requests.py`**: Motor central para realizar peticiones HTTP seguras con reintentos automáticos, logging y manejo de errores.
+- **`api_templates.py`**: Librería de snippets con los métodos de autenticación más comunes (Basic, Bearer, API Key).
+- **`meta_graph_api.py`**: Ejemplo completo de clase conector para obtener información y posts de la Meta Graph API.
+- **`google_ads_api.py`**: Plantilla de conexión REST para Google Ads (GAQL, Auth compleja).
+- **`weather_api.py`**: Ejemplo sencillo y funcional de consumo de API pública (OpenWeatherMap) para pruebas rápidas.
+
+---
+
 ### 📂 `excel_openpyxl`
 Scripts para la manipulación y automatización de archivos Excel utilizando la librería `openpyxl`.
 
